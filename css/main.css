@@ -1,1 +1,147 @@
 /* Agrega aquí tus estilos*/
+
+* {
+    font-family: 'Inconsolata', monospace;
+}
+
+body {
+    background-color: #C8DFEB;
+    margin: 0;
+    padding: 10px;
+    overflow: visible;
+    /*Es el scroll de la página*/
+}
+
+h1 {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #0E72AB;
+}
+
+h2 {
+    color: #0E72AB;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase
+}
+
+h3 {
+    color: #0E72AB;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase
+}
+
+li {
+    color: #0E72AB;
+}
+
+html,
+body,
+div,
+ol,
+ul,
+{
+    text-align: center;
+    font-family: 'Taviraj', serif;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+li,
+a {
+    color: #0E72AB;
+    text-decoration: none;
+    /*quitar underline de los links*/
+}
+
+li,
+a:hover {
+    color: deeppink;
+}
+
+li:nth-child(odd) {
+    color: #0E72AB;
+    font-weight: bold;
+}
+
+li:nth-child(even) {
+    color: #0E72AB;
+    font-weight: bold;
+}
+
+p {
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* -------SIDEBAR ASIDE------- */
+
+.design-selection h3 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 2em;
+    letter-spacing: 0.05em;
+    padding: 0.5em 0;
+    margin: 0.35em auto 0.75em;
+    background-size: 15em;
+    line-height: 1;
+}
+
+.design-selection {
+    margin: 0 auto;
+}
+
+.design-selection ul {
+    list-style-type: none;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.design-selection li {
+    color: transparent;
+    margin-bottom: 0.28em;
+    clear: both;
+}
+
+.design-selection li a {
+    text-decoration: none;
+    color: #3f3d3a;
+}
+
+.sidebar a:hover,
+sidebar a:focus {
+    color: #e5452c;
+}
+
+.design-name {
+    font-style: italic;
+    padding-right: 0.25em;
+}
+
+.design-name:after {
+    float: left;
+    width: 0;
+    white-space: nowrap;
+    color: whitesmoke;
+    content: "________________________________________________________________________________________"
+}
+
+.designer-name {
+    float: right;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1em;
+    text-transform: uppercase;
+    padding-left: 0.25em;
+}
