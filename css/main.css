@@ -54,7 +54,7 @@ h3 {
     color: #0E72AB;
     font-size: 16px;
     font-weight: bold;
-    text-align: center;
+    text-align: left;
     text-transform: uppercase
 }
 
@@ -170,7 +170,12 @@ sidebar a:focus {
 }
 
 footer {
-    height: 50px;
+    height: 25px;
     background: white;
     text-align: center
+}
+
+h3.select {
+    /*alinear a la izquierda ese especifico h3*/
+    text-align: center;
 }
