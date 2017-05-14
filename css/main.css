@@ -145,3 +145,9 @@ sidebar a:focus {
     text-transform: uppercase;
     padding-left: 0.25em;
 }
+
+footer {
+    height: 50px;
+    background: white;
+    text-align: center
+}
