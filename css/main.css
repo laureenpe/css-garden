@@ -1,3 +1,26 @@
+/* Agrega aquí tus estilos
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: navajowhite;
+    margin: 0;
+}
+
+h1,
+h2,
+h3 {
+    background-color: whitesmoke;
+    text-align: center;
+    font-family: 'Taviraj', serif;
+    font-weight: 700;
+}
+
+p {
+    background-color: whitesmoke;
+}/*
 /* Agrega aquí tus estilos*/
 
 * {
@@ -7,14 +30,14 @@
 body {
     background-color: #C8DFEB;
     margin: 0;
-    padding: 10px;
+    padding: 30px;
     overflow: visible;
     /*Es el scroll de la página*/
 }
 
 h1 {
     color: white;
-    font-size: 24px;
+    font-size: 44px;
     font-weight: bold;
     text-align: center;
     background-color: #0E72AB;
@@ -22,17 +45,16 @@ h1 {
 
 h2 {
     color: #0E72AB;
-    font-size: 18px;
+    font-size: 38px;
     text-align: center;
     text-transform: uppercase
 }
 
 h3 {
     color: #0E72AB;
-    font-size: 16px;
+    font-size: 26px;
     font-weight: bold;
     text-align: center;
-    text-transform: uppercase
 }
 
 li {
@@ -135,7 +157,10 @@ sidebar a:focus {
     width: 0;
     white-space: nowrap;
     color: whitesmoke;
+
     content: "_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________"
+    content: "________________________________________________________________________________________________________________________________________________________________"
+
 }
 
 .designer-name {
@@ -147,7 +172,41 @@ sidebar a:focus {
 }
 
 footer {
-    height: 50px;
-    background: white;
+    height: 45px;
+    text-align: center;
+    font-size: 2em;
+    color: white;
+}
+
+h3.archives {
+    /*alinear a la izquierda ese especifico h3*/
+    text-align: justify;
+    background: #0E72AB;
+    color: whitesmoke;
     text-align: center
 }
+
+
+h3.resources {
+    /*alinear a la izquierda ese especifico h3*/
+    text-align: center;
+    color: whitesmoke;
+    text-align: center;
+    float: center;
+    background: #0E72AB;
+}
+
+h3.select {
+    background-image: url('../css/img/garden.jpg');
+    color: whitesmoke;
+}
+
+div#design-archives.design-archives {
+    float: center;
+}
+
+div#zen-resourses.zen-resources {
+    float: right;
+    text-align: right;
+}
+
